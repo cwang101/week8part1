@@ -42,7 +42,7 @@ public class Employee {
         this.salary = salary;
     }
 
-    public long getId() {
+    public Long getId() {
         return id;
     }
 
@@ -70,5 +70,9 @@ public class Employee {
 
     public void setGender(String gender) {
         this.gender = gender;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 }
